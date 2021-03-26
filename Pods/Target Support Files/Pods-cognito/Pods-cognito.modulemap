@@ -1,0 +1,6 @@
+framework module Pods_cognito {
+  umbrella header "Pods-cognito-umbrella.h"
+
+  export *
+  module * { export * }
+}

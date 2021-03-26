@@ -3,23 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18AD470EE8E14E07BAF64503 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = D76835A01D02422295B79D51 /* amplifyconfiguration.json */; };
 		8A0DB0CE260BD9B30070D3DF /* cognitoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0DB0CD260BD9B30070D3DF /* cognitoApp.swift */; };
 		8A0DB0D0260BD9B30070D3DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0DB0CF260BD9B30070D3DF /* ContentView.swift */; };
 		8A0DB0D2260BD9B90070D3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0DB0D1260BD9B90070D3DF /* Assets.xcassets */; };
 		8A0DB0D5260BD9B90070D3DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0DB0D4260BD9B90070D3DF /* Preview Assets.xcassets */; };
+		8AA65F8D260C2959007885BA /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA65F8C260C2959007885BA /* SignUp.swift */; };
+		8AA65F90260D578B007885BA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA65F8F260D578B007885BA /* LoginView.swift */; };
+		C51493781C69403C8C281AC5 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B905CB79A0ED4BF4B684C315 /* awsconfiguration.json */; };
+		F2FB4A349AB9F8D1EA0B8F50 /* Pods_cognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339958447ACB371257148DBF /* Pods_cognito.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		117CAEF9E6AC4475777D61D1 /* Pods-cognito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cognito.debug.xcconfig"; path = "Target Support Files/Pods-cognito/Pods-cognito.debug.xcconfig"; sourceTree = "<group>"; };
+		339958447ACB371257148DBF /* Pods_cognito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cognito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9A7DC442C940EDAE47C9F2 /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
 		8A0DB0CA260BD9B30070D3DF /* cognito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cognito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0DB0CD260BD9B30070D3DF /* cognitoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cognitoApp.swift; sourceTree = "<group>"; };
 		8A0DB0CF260BD9B30070D3DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A0DB0D1260BD9B90070D3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A0DB0D4260BD9B90070D3DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A0DB0D6260BD9B90070D3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA65F8C260C2959007885BA /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		8AA65F8F260D578B007885BA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B905CB79A0ED4BF4B684C315 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		D76835A01D02422295B79D51 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		EE56132D981A47FA9E8F28BB /* Pods-cognito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cognito.release.xcconfig"; path = "Target Support Files/Pods-cognito/Pods-cognito.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +40,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FB4A349AB9F8D1EA0B8F50 /* Pods_cognito.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		061EF47E019316C495D3AA96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				117CAEF9E6AC4475777D61D1 /* Pods-cognito.debug.xcconfig */,
+				EE56132D981A47FA9E8F28BB /* Pods-cognito.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		39B31A2AE571E9C72BEFF8EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				339958447ACB371257148DBF /* Pods_cognito.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A0DB0C1260BD9B30070D3DF = {
 			isa = PBXGroup;
 			children = (
+				992CDABE1BC74AF0B91EAD37 /* AmplifyConfig */,
 				8A0DB0CC260BD9B30070D3DF /* cognito */,
 				8A0DB0CB260BD9B30070D3DF /* Products */,
+				061EF47E019316C495D3AA96 /* Pods */,
+				39B31A2AE571E9C72BEFF8EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				8A0DB0CD260BD9B30070D3DF /* cognitoApp.swift */,
+				8AA65F8C260C2959007885BA /* SignUp.swift */,
 				8A0DB0CF260BD9B30070D3DF /* ContentView.swift */,
+				8AA65F8F260D578B007885BA /* LoginView.swift */,
 				8A0DB0D1260BD9B90070D3DF /* Assets.xcassets */,
 				8A0DB0D6260BD9B90070D3DF /* Info.plist */,
 				8A0DB0D3260BD9B90070D3DF /* Preview Content */,
@@ -69,6 +105,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		992CDABE1BC74AF0B91EAD37 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				3F9A7DC442C940EDAE47C9F2 /* amplifytools.xcconfig */,
+				D76835A01D02422295B79D51 /* amplifyconfiguration.json */,
+				B905CB79A0ED4BF4B684C315 /* awsconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A0DB0D9260BD9B90070D3DF /* Build configuration list for PBXNativeTarget "cognito" */;
 			buildPhases = (
+				90E77BCB2F99C6A789731687 /* [CP] Check Pods Manifest.lock */,
 				8A0DB0C6260BD9B30070D3DF /* Sources */,
 				8A0DB0C7260BD9B30070D3DF /* Frameworks */,
 				8A0DB0C8260BD9B30070D3DF /* Resources */,
+				D8EFB19E61AB0B285F2DABC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +177,54 @@
 			files = (
 				8A0DB0D5260BD9B90070D3DF /* Preview Assets.xcassets in Resources */,
 				8A0DB0D2260BD9B90070D3DF /* Assets.xcassets in Resources */,
+				18AD470EE8E14E07BAF64503 /* amplifyconfiguration.json in Resources */,
+				C51493781C69403C8C281AC5 /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90E77BCB2F99C6A789731687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cognito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8EFB19E61AB0B285F2DABC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cognito/Pods-cognito-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cognito/Pods-cognito-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cognito/Pods-cognito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A0DB0C6260BD9B30070D3DF /* Sources */ = {
@@ -139,6 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A0DB0D0260BD9B30070D3DF /* ContentView.swift in Sources */,
+				8AA65F8D260C2959007885BA /* SignUp.swift in Sources */,
+				8AA65F90260D578B007885BA /* LoginView.swift in Sources */,
 				8A0DB0CE260BD9B30070D3DF /* cognitoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +359,7 @@
 		};
 		8A0DB0DA260BD9B90070D3DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 117CAEF9E6AC4475777D61D1 /* Pods-cognito.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +382,7 @@
 		};
 		8A0DB0DB260BD9B90070D3DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE56132D981A47FA9E8F28BB /* Pods-cognito.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
